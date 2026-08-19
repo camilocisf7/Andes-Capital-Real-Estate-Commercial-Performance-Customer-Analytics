@@ -84,13 +84,8 @@ Cada fila de hecho_ventas_propiedades representa una transacción individual de 
 * Se verificó que el monto_comision fuera consistente con el precio_venta y el porcentaje_comision, evitando utilizar métricas de comisión potencialmente inconsistentes en el análisis.
 
 **Modelo de datos**
-Se construyó un modelo de datos en esquema estrella, utilizando hecho_ventas_propiedades como tabla de hechos y dim_clientes, dim_propiedades y dim_fecha como dimensiones.
 
-                     dim_clientes
-                          │
-                          │
-                          ▼
-dim_fecha - - ─ hecho_ventas_propiedades - - - - dim_propiedades
+Se construyó un modelo de datos en esquema estrella, utilizando hecho_ventas_propiedades como tabla de hechos y dim_clientes, dim_propiedades y dim_fecha como dimensiones.
 
 ****Métricas****
 
