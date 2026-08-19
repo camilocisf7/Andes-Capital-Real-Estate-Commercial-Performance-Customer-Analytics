@@ -87,13 +87,9 @@ Cada fila de hecho_ventas_propiedades representa una transacción individual de 
 Se construyó un modelo de datos en esquema estrella, utilizando hecho_ventas_propiedades como tabla de hechos y dim_clientes, dim_propiedades y dim_fecha como dimensiones.
 
                      dim_clientes
-
                           │
-
                           │
-
                           ▼
-
 dim_fecha ─────── hecho_ventas_propiedades ─────── dim_propiedades
 
 ****Métricas****
