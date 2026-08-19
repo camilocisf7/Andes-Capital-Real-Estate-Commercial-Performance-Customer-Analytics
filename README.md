@@ -1,6 +1,6 @@
 # Andes-Capital-Real-Estate-Commercial-Performance-Customer-Analytics
 
-## 📑 Tabla de contenidos
+##  Tabla de contenidos
 
 - [Resumen ejecutivo](#-resumen-ejecutivo)
 
