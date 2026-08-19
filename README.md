@@ -90,7 +90,7 @@ Se construyó un modelo de datos en esquema estrella, utilizando hecho_ventas_pr
                           │
                           │
                           ▼
-dim_fecha ─────── hecho_ventas_propiedades ─────── dim_propiedades
+dim_fecha - - ─ hecho_ventas_propiedades - - - - dim_propiedades
 
 ****Métricas****
 
